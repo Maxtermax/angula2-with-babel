@@ -1,10 +1,5 @@
-// Import polyfills.
-import 'babel-polyfill';
-import 'zone.js/dist/zone.js';
-
 import { Component } from '@angular/core';
 import { bootstrap }  from '@angular/platform-browser-dynamic';
-
 
 @Component({
   selector: 'my-app',
@@ -13,7 +8,7 @@ import { bootstrap }  from '@angular/platform-browser-dynamic';
 
 class AppComponent { 
 	constructor() {
-		console.log("Test");
+		console.log("Test 1");
 	}
 }
 
